@@ -51,7 +51,7 @@ public class VACalendar {
         
         let startDate = startDate ?? calendar.date(byAdding: .year, value: -1, to: Date())!
         let endDate = endDate ?? calendar.date(byAdding: .year, value: 1, to: Date())!
-        months = generateMonths(from: startDate, endDate: endDate)
+        months = generateMonths(from: startDate, endDate: endDate, delegate: delegate)
     }
     
     func selectDay(_ day: VADay) {
@@ -106,7 +106,7 @@ public class VACalendar {
         months.forEach { $0.deselectAll() }
     }
     
-    private func generateMonths(from startDate: Date, endDate: Date) -> [VAMonth] {
+    private func generateMonths(from startDate: Date, endDate: Date, delegate:VACalendarDayDelegate? ) -> [VAMonth] {
         let startComponents = calendar.dateComponents([.year, .month], from: startDate)
         let endComponents = calendar.dateComponents([.year, .month], from: endDate)
         var startDate = calendar.date(from: startComponents)!
@@ -116,6 +116,7 @@ public class VACalendar {
         repeat {
             let date = startDate
             let month = VAMonth(month: date, calendar: calendar)
+            month.dayDelegate = delegate
             month.selectedDays = selectedDays.filter { calendar.isDate($0.date, equalTo: startDate, toGranularity: .month) }
             months.append(month)
             startDate = calendar.date(byAdding: .month, value: 1, to: date)!
