@@ -12,6 +12,10 @@ protocol VACalendarDelegate: class {
     func selectedDaysDidUpdate(_ days: [VADay])
 }
 
+public protocol VACalendarDayDelegate: class {
+    func isDayAvailable(_ day:Date) -> Bool
+}
+
 public enum DaysAvailability {
     case all
     case some([Date])
@@ -35,7 +39,9 @@ public class VACalendar {
         startDate: Date? = nil,
         endDate: Date? = nil,
         selectedDate: Date? = Date(),
-        calendar: Calendar = Calendar.current) {
+        calendar: Calendar = Calendar.current,
+        delegate:VACalendarDayDelegate? = nil) {
+        
         self.calendar = calendar
         
         if let selectedDate = selectedDate {

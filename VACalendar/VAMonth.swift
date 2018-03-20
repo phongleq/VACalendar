@@ -11,6 +11,7 @@ import Foundation
 class VAMonth {
     
     var weeks = [VAWeek]()
+    var dayDelegate:VACalendarDayDelegate?
     let lastMonthDay: Date
     let date: Date
     
@@ -87,7 +88,11 @@ class VAMonth {
         } else if selectedDays.contains(where: { calendar.isDate($0.date , inSameDayAs: date) }) {
             return .selected
         } else {
-            return .available
+            guard let delegate = dayDelegate else {
+                return .available
+            }
+            
+            return delegate.isDayAvailable(date) ? .available : .out
         }
     }
     
