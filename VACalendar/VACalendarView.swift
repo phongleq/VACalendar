@@ -41,9 +41,14 @@ public class VACalendarView: UIScrollView {
     public var startDate = Date()
     public var showDaysOut = true
     public var selectionStyle: VASelectionStyle = .single
+    public var calendar: VACalendar {
+        didSet{
+            guard let _ = self.superview else { return }
+            updateConstraints()
+        }
+    }
     
     private var calculatedWeekHeight: CGFloat = 100
-    private let calendar: VACalendar
     private var monthViews = [VAMonthView]()
     private let maxNumberOfWeek = 6
     private let numberDaysInWeek = 7
@@ -56,14 +61,17 @@ public class VACalendarView: UIScrollView {
         }
     }
     
-    public init(frame: CGRect, calendar: VACalendar) {
-        self.calendar = calendar
-        
-        super.init(frame: frame)
-    }
-    
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public override func updateConstraints() {
+        super.updateConstraints()
+        self.subviews.forEach {view in
+            view.removeFromSuperview()
+        }
+        
+        self.setup()
     }
     
     // specify all properties before calling setup()
