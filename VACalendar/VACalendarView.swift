@@ -136,6 +136,7 @@ public class VACalendarView: UIScrollView {
         switch scrollDirection {
         case .horizontal:
             contentSize.width = frame.width * CGFloat(calendar.months.count)
+            contentSize.height = frame.height
         case .vertical:
             let monthsHeight: CGFloat = calendar.months.enumerated().reduce(0) { result, item in
                 let inset: CGFloat = item.offset == calendar.months.count - 1  ? 0.0 : monthVerticalInset
@@ -143,6 +144,7 @@ public class VACalendarView: UIScrollView {
                 return CGFloat(result) + height
             }
             contentSize.height = monthsHeight
+            contentSize.width = frame.width
         }
     }
     
