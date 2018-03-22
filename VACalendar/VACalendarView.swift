@@ -41,13 +41,9 @@ public class VACalendarView: UIScrollView {
     public var startDate = Date()
     public var showDaysOut = true
     public var selectionStyle: VASelectionStyle = .single
-    public var calendar: VACalendar {
-        didSet{
-            layoutSubviews()
-        }
-    }
     
     private var calculatedWeekHeight: CGFloat = 100
+    private let calendar: VACalendar
     private var monthViews = [VAMonthView]()
     private let maxNumberOfWeek = 6
     private let numberDaysInWeek = 7
@@ -60,18 +56,14 @@ public class VACalendarView: UIScrollView {
         }
     }
     
-    public required init?(coder aDecoder: NSCoder) {
-        self.calendar = VACalendar()
-        super.init(coder: aDecoder)
+    public init(frame: CGRect, calendar: VACalendar) {
+        self.calendar = calendar
+        
+        super.init(frame: frame)
     }
     
-    public override func layoutSubviews() {
-        super.layoutSubviews()
-        self.subviews.forEach {view in
-            view.removeFromSuperview()
-        }
-        
-        self.setup()
+    public required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     // specify all properties before calling setup()
@@ -136,7 +128,6 @@ public class VACalendarView: UIScrollView {
         switch scrollDirection {
         case .horizontal:
             contentSize.width = frame.width * CGFloat(calendar.months.count)
-            contentSize.height = frame.height
         case .vertical:
             let monthsHeight: CGFloat = calendar.months.enumerated().reduce(0) { result, item in
                 let inset: CGFloat = item.offset == calendar.months.count - 1  ? 0.0 : monthVerticalInset
@@ -144,7 +135,6 @@ public class VACalendarView: UIScrollView {
                 return CGFloat(result) + height
             }
             contentSize.height = monthsHeight
-            contentSize.width = frame.width
         }
     }
     
