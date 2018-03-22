@@ -43,8 +43,7 @@ public class VACalendarView: UIScrollView {
     public var selectionStyle: VASelectionStyle = .single
     public var calendar: VACalendar {
         didSet{
-            guard let _ = self.superview else { return }
-            updateConstraints()
+            layoutSubviews()
         }
     }
     
@@ -66,8 +65,8 @@ public class VACalendarView: UIScrollView {
         super.init(coder: aDecoder)
     }
     
-    public override func updateConstraints() {
-        super.updateConstraints()
+    public override func layoutSubviews() {
+        super.layoutSubviews()
         self.subviews.forEach {view in
             view.removeFromSuperview()
         }
