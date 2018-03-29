@@ -3,47 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60086D62204C707A002097E7 /* VACalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 60086D60204C707A002097E7 /* VACalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60086D76204C712F002097E7 /* VADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D69204C712E002097E7 /* VADay.swift */; };
-		60086D77204C712F002097E7 /* VADotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6A204C712E002097E7 /* VADotView.swift */; };
-		60086D78204C712F002097E7 /* VADayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6B204C712E002097E7 /* VADayView.swift */; };
-		60086D79204C712F002097E7 /* VACalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6C204C712E002097E7 /* VACalendarView.swift */; };
-		60086D7A204C712F002097E7 /* VACalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6D204C712E002097E7 /* VACalendar.swift */; };
-		60086D7B204C712F002097E7 /* VAWeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6E204C712E002097E7 /* VAWeekDaysView.swift */; };
-		60086D7C204C712F002097E7 /* VAWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D6F204C712E002097E7 /* VAWeek.swift */; };
-		60086D7D204C712F002097E7 /* VAMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D70204C712E002097E7 /* VAMonth.swift */; };
-		60086D7E204C712F002097E7 /* VAWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D71204C712E002097E7 /* VAWeekView.swift */; };
-		60086D7F204C712F002097E7 /* VAFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D72204C712E002097E7 /* VAFormatters.swift */; };
-		60086D80204C712F002097E7 /* VACalendarMonthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D73204C712E002097E7 /* VACalendarMonthDelegate.swift */; };
-		60086D81204C712F002097E7 /* VAMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D74204C712F002097E7 /* VAMonthView.swift */; };
-		60086D82204C712F002097E7 /* VAMonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086D75204C712F002097E7 /* VAMonthHeaderView.swift */; };
+		ED2EB047206D89290033FA80 /* VACalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2EB045206D89290033FA80 /* VACalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2EB05A206D896D0033FA80 /* VACalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04D206D896B0033FA80 /* VACalendarView.swift */; };
+		ED2EB05B206D896D0033FA80 /* VACalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04E206D896B0033FA80 /* VACalendar.swift */; };
+		ED2EB05C206D896D0033FA80 /* VAWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04F206D896C0033FA80 /* VAWeekView.swift */; };
+		ED2EB05D206D896D0033FA80 /* VAFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB050206D896C0033FA80 /* VAFormatters.swift */; };
+		ED2EB05E206D896D0033FA80 /* VAMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB051206D896C0033FA80 /* VAMonth.swift */; };
+		ED2EB05F206D896D0033FA80 /* VADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB052206D896C0033FA80 /* VADay.swift */; };
+		ED2EB060206D896D0033FA80 /* VAWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB053206D896C0033FA80 /* VAWeek.swift */; };
+		ED2EB061206D896D0033FA80 /* VAWeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */; };
+		ED2EB062206D896D0033FA80 /* VAMonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */; };
+		ED2EB063206D896D0033FA80 /* VAMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB056206D896C0033FA80 /* VAMonthView.swift */; };
+		ED2EB064206D896D0033FA80 /* VADayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB057206D896C0033FA80 /* VADayView.swift */; };
+		ED2EB065206D896D0033FA80 /* VACalendarMonthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */; };
+		ED2EB066206D896D0033FA80 /* VADotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB059206D896C0033FA80 /* VADotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60086D5D204C707A002097E7 /* VACalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VACalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60086D60204C707A002097E7 /* VACalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VACalendar.h; sourceTree = "<group>"; };
-		60086D61204C707A002097E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60086D69204C712E002097E7 /* VADay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADay.swift; sourceTree = "<group>"; };
-		60086D6A204C712E002097E7 /* VADotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADotView.swift; sourceTree = "<group>"; };
-		60086D6B204C712E002097E7 /* VADayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADayView.swift; sourceTree = "<group>"; };
-		60086D6C204C712E002097E7 /* VACalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarView.swift; sourceTree = "<group>"; };
-		60086D6D204C712E002097E7 /* VACalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendar.swift; sourceTree = "<group>"; };
-		60086D6E204C712E002097E7 /* VAWeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekDaysView.swift; sourceTree = "<group>"; };
-		60086D6F204C712E002097E7 /* VAWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeek.swift; sourceTree = "<group>"; };
-		60086D70204C712E002097E7 /* VAMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonth.swift; sourceTree = "<group>"; };
-		60086D71204C712E002097E7 /* VAWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekView.swift; sourceTree = "<group>"; };
-		60086D72204C712E002097E7 /* VAFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAFormatters.swift; sourceTree = "<group>"; };
-		60086D73204C712E002097E7 /* VACalendarMonthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarMonthDelegate.swift; sourceTree = "<group>"; };
-		60086D74204C712F002097E7 /* VAMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthView.swift; sourceTree = "<group>"; };
-		60086D75204C712F002097E7 /* VAMonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthHeaderView.swift; sourceTree = "<group>"; };
+		ED2EB042206D89290033FA80 /* VACalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VACalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2EB045206D89290033FA80 /* VACalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VACalendar.h; sourceTree = "<group>"; };
+		ED2EB046206D89290033FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2EB04D206D896B0033FA80 /* VACalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarView.swift; sourceTree = "<group>"; };
+		ED2EB04E206D896B0033FA80 /* VACalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendar.swift; sourceTree = "<group>"; };
+		ED2EB04F206D896C0033FA80 /* VAWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekView.swift; sourceTree = "<group>"; };
+		ED2EB050206D896C0033FA80 /* VAFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAFormatters.swift; sourceTree = "<group>"; };
+		ED2EB051206D896C0033FA80 /* VAMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonth.swift; sourceTree = "<group>"; };
+		ED2EB052206D896C0033FA80 /* VADay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADay.swift; sourceTree = "<group>"; };
+		ED2EB053206D896C0033FA80 /* VAWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeek.swift; sourceTree = "<group>"; };
+		ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekDaysView.swift; sourceTree = "<group>"; };
+		ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthHeaderView.swift; sourceTree = "<group>"; };
+		ED2EB056206D896C0033FA80 /* VAMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthView.swift; sourceTree = "<group>"; };
+		ED2EB057206D896C0033FA80 /* VADayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADayView.swift; sourceTree = "<group>"; };
+		ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarMonthDelegate.swift; sourceTree = "<group>"; };
+		ED2EB059206D896C0033FA80 /* VADotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60086D59204C707A002097E7 /* Frameworks */ = {
+		ED2EB03E206D89290033FA80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,40 +53,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		60086D53204C707A002097E7 = {
+		ED2EB038206D89290033FA80 = {
 			isa = PBXGroup;
 			children = (
-				60086D5F204C707A002097E7 /* VACalendar */,
-				60086D5E204C707A002097E7 /* Products */,
+				ED2EB044206D89290033FA80 /* VACalendar */,
+				ED2EB043206D89290033FA80 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		60086D5E204C707A002097E7 /* Products */ = {
+		ED2EB043206D89290033FA80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60086D5D204C707A002097E7 /* VACalendar.framework */,
+				ED2EB042206D89290033FA80 /* VACalendar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60086D5F204C707A002097E7 /* VACalendar */ = {
+		ED2EB044206D89290033FA80 /* VACalendar */ = {
 			isa = PBXGroup;
 			children = (
-				60086D60204C707A002097E7 /* VACalendar.h */,
-				60086D6D204C712E002097E7 /* VACalendar.swift */,
-				60086D73204C712E002097E7 /* VACalendarMonthDelegate.swift */,
-				60086D6C204C712E002097E7 /* VACalendarView.swift */,
-				60086D69204C712E002097E7 /* VADay.swift */,
-				60086D6B204C712E002097E7 /* VADayView.swift */,
-				60086D6A204C712E002097E7 /* VADotView.swift */,
-				60086D72204C712E002097E7 /* VAFormatters.swift */,
-				60086D70204C712E002097E7 /* VAMonth.swift */,
-				60086D75204C712F002097E7 /* VAMonthHeaderView.swift */,
-				60086D74204C712F002097E7 /* VAMonthView.swift */,
-				60086D6F204C712E002097E7 /* VAWeek.swift */,
-				60086D6E204C712E002097E7 /* VAWeekDaysView.swift */,
-				60086D71204C712E002097E7 /* VAWeekView.swift */,
-				60086D61204C707A002097E7 /* Info.plist */,
+				ED2EB045206D89290033FA80 /* VACalendar.h */,
+				ED2EB04E206D896B0033FA80 /* VACalendar.swift */,
+				ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */,
+				ED2EB04D206D896B0033FA80 /* VACalendarView.swift */,
+				ED2EB052206D896C0033FA80 /* VADay.swift */,
+				ED2EB057206D896C0033FA80 /* VADayView.swift */,
+				ED2EB059206D896C0033FA80 /* VADotView.swift */,
+				ED2EB050206D896C0033FA80 /* VAFormatters.swift */,
+				ED2EB051206D896C0033FA80 /* VAMonth.swift */,
+				ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */,
+				ED2EB056206D896C0033FA80 /* VAMonthView.swift */,
+				ED2EB053206D896C0033FA80 /* VAWeek.swift */,
+				ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */,
+				ED2EB04F206D896C0033FA80 /* VAWeekView.swift */,
+				ED2EB046206D89290033FA80 /* Info.plist */,
 			);
 			path = VACalendar;
 			sourceTree = "<group>";
@@ -94,25 +94,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		60086D5A204C707A002097E7 /* Headers */ = {
+		ED2EB03F206D89290033FA80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60086D62204C707A002097E7 /* VACalendar.h in Headers */,
+				ED2EB047206D89290033FA80 /* VACalendar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60086D5C204C707A002097E7 /* VACalendar */ = {
+		ED2EB041206D89290033FA80 /* VACalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60086D65204C707A002097E7 /* Build configuration list for PBXNativeTarget "VACalendar" */;
+			buildConfigurationList = ED2EB04A206D89290033FA80 /* Build configuration list for PBXNativeTarget "VACalendar" */;
 			buildPhases = (
-				60086D58204C707A002097E7 /* Sources */,
-				60086D59204C707A002097E7 /* Frameworks */,
-				60086D5A204C707A002097E7 /* Headers */,
-				60086D5B204C707A002097E7 /* Resources */,
+				ED2EB03D206D89290033FA80 /* Sources */,
+				ED2EB03E206D89290033FA80 /* Frameworks */,
+				ED2EB03F206D89290033FA80 /* Headers */,
+				ED2EB040206D89290033FA80 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,43 +120,43 @@
 			);
 			name = VACalendar;
 			productName = VACalendar;
-			productReference = 60086D5D204C707A002097E7 /* VACalendar.framework */;
+			productReference = ED2EB042206D89290033FA80 /* VACalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		60086D54204C707A002097E7 /* Project object */ = {
+		ED2EB039206D89290033FA80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Anton Vodolazkyi";
 				TargetAttributes = {
-					60086D5C204C707A002097E7 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+					ED2EB041206D89290033FA80 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
-			buildConfigurationList = 60086D57204C707A002097E7 /* Build configuration list for PBXProject "VACalendar" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = ED2EB03C206D89290033FA80 /* Build configuration list for PBXProject "VACalendar" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 60086D53204C707A002097E7;
-			productRefGroup = 60086D5E204C707A002097E7 /* Products */;
+			mainGroup = ED2EB038206D89290033FA80;
+			productRefGroup = ED2EB043206D89290033FA80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60086D5C204C707A002097E7 /* VACalendar */,
+				ED2EB041206D89290033FA80 /* VACalendar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60086D5B204C707A002097E7 /* Resources */ = {
+		ED2EB040206D89290033FA80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,30 +166,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60086D58204C707A002097E7 /* Sources */ = {
+		ED2EB03D206D89290033FA80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60086D76204C712F002097E7 /* VADay.swift in Sources */,
-				60086D78204C712F002097E7 /* VADayView.swift in Sources */,
-				60086D7B204C712F002097E7 /* VAWeekDaysView.swift in Sources */,
-				60086D7E204C712F002097E7 /* VAWeekView.swift in Sources */,
-				60086D80204C712F002097E7 /* VACalendarMonthDelegate.swift in Sources */,
-				60086D7A204C712F002097E7 /* VACalendar.swift in Sources */,
-				60086D7C204C712F002097E7 /* VAWeek.swift in Sources */,
-				60086D7D204C712F002097E7 /* VAMonth.swift in Sources */,
-				60086D82204C712F002097E7 /* VAMonthHeaderView.swift in Sources */,
-				60086D81204C712F002097E7 /* VAMonthView.swift in Sources */,
-				60086D7F204C712F002097E7 /* VAFormatters.swift in Sources */,
-				60086D77204C712F002097E7 /* VADotView.swift in Sources */,
-				60086D79204C712F002097E7 /* VACalendarView.swift in Sources */,
+				ED2EB063206D896D0033FA80 /* VAMonthView.swift in Sources */,
+				ED2EB05E206D896D0033FA80 /* VAMonth.swift in Sources */,
+				ED2EB066206D896D0033FA80 /* VADotView.swift in Sources */,
+				ED2EB065206D896D0033FA80 /* VACalendarMonthDelegate.swift in Sources */,
+				ED2EB062206D896D0033FA80 /* VAMonthHeaderView.swift in Sources */,
+				ED2EB05C206D896D0033FA80 /* VAWeekView.swift in Sources */,
+				ED2EB05B206D896D0033FA80 /* VACalendar.swift in Sources */,
+				ED2EB05F206D896D0033FA80 /* VADay.swift in Sources */,
+				ED2EB060206D896D0033FA80 /* VAWeek.swift in Sources */,
+				ED2EB05A206D896D0033FA80 /* VACalendarView.swift in Sources */,
+				ED2EB061206D896D0033FA80 /* VAWeekDaysView.swift in Sources */,
+				ED2EB064206D896D0033FA80 /* VADayView.swift in Sources */,
+				ED2EB05D206D896D0033FA80 /* VAFormatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		60086D63204C707A002097E7 /* Debug */ = {
+		ED2EB048206D89290033FA80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,10 +199,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -210,6 +212,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		60086D64204C707A002097E7 /* Release */ = {
+		ED2EB049206D89290033FA80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,10 +262,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -270,6 +275,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -292,17 +298,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		60086D66204C707A002097E7 /* Debug */ = {
+		ED2EB04B206D89290033FA80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -315,7 +322,11 @@
 				INFOPLIST_FILE = VACalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = vodolazkyi.VACalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -325,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		60086D67204C707A002097E7 /* Release */ = {
+		ED2EB04C206D89290033FA80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -338,7 +349,11 @@
 				INFOPLIST_FILE = VACalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = vodolazkyi.VACalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -350,25 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60086D57204C707A002097E7 /* Build configuration list for PBXProject "VACalendar" */ = {
+		ED2EB03C206D89290033FA80 /* Build configuration list for PBXProject "VACalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60086D63204C707A002097E7 /* Debug */,
-				60086D64204C707A002097E7 /* Release */,
+				ED2EB048206D89290033FA80 /* Debug */,
+				ED2EB049206D89290033FA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60086D65204C707A002097E7 /* Build configuration list for PBXNativeTarget "VACalendar" */ = {
+		ED2EB04A206D89290033FA80 /* Build configuration list for PBXNativeTarget "VACalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60086D66204C707A002097E7 /* Debug */,
-				60086D67204C707A002097E7 /* Release */,
+				ED2EB04B206D89290033FA80 /* Debug */,
+				ED2EB04C206D89290033FA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 60086D54204C707A002097E7 /* Project object */;
+	rootObject = ED2EB039206D89290033FA80 /* Project object */;
 }

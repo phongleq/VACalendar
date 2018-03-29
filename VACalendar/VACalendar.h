@@ -2,7 +2,8 @@
 //  VACalendar.h
 //  VACalendar
 //
-//  Created by Anton Vodolazkyi on 04.03.18.
+//  Created by Anton Vodolazkyi on 3/29/18.
+//  Copyright © 2018 Anton Vodolazkyi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
