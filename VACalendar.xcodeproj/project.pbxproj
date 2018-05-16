@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2EB047206D89290033FA80 /* VACalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2EB045206D89290033FA80 /* VACalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED2EB05A206D896D0033FA80 /* VACalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04D206D896B0033FA80 /* VACalendarView.swift */; };
-		ED2EB05B206D896D0033FA80 /* VACalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04E206D896B0033FA80 /* VACalendar.swift */; };
-		ED2EB05C206D896D0033FA80 /* VAWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB04F206D896C0033FA80 /* VAWeekView.swift */; };
-		ED2EB05D206D896D0033FA80 /* VAFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB050206D896C0033FA80 /* VAFormatters.swift */; };
-		ED2EB05E206D896D0033FA80 /* VAMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB051206D896C0033FA80 /* VAMonth.swift */; };
-		ED2EB05F206D896D0033FA80 /* VADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB052206D896C0033FA80 /* VADay.swift */; };
-		ED2EB060206D896D0033FA80 /* VAWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB053206D896C0033FA80 /* VAWeek.swift */; };
-		ED2EB061206D896D0033FA80 /* VAWeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */; };
-		ED2EB062206D896D0033FA80 /* VAMonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */; };
-		ED2EB063206D896D0033FA80 /* VAMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB056206D896C0033FA80 /* VAMonthView.swift */; };
-		ED2EB064206D896D0033FA80 /* VADayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB057206D896C0033FA80 /* VADayView.swift */; };
-		ED2EB065206D896D0033FA80 /* VACalendarMonthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */; };
-		ED2EB066206D896D0033FA80 /* VADotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB059206D896C0033FA80 /* VADotView.swift */; };
+		EDCDBE9820ACDB70004E4EF3 /* VACalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCDBE9620ACDB70004E4EF3 /* VACalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCDBEAB20ACDC9B004E4EF3 /* VADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBE9E20ACDC9B004E4EF3 /* VADay.swift */; };
+		EDCDBEAC20ACDC9B004E4EF3 /* VADotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBE9F20ACDC9B004E4EF3 /* VADotView.swift */; };
+		EDCDBEAD20ACDC9B004E4EF3 /* VAWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA020ACDC9B004E4EF3 /* VAWeek.swift */; };
+		EDCDBEAE20ACDC9B004E4EF3 /* VAWeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA120ACDC9B004E4EF3 /* VAWeekDaysView.swift */; };
+		EDCDBEAF20ACDC9B004E4EF3 /* VACalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA220ACDC9B004E4EF3 /* VACalendarView.swift */; };
+		EDCDBEB020ACDC9B004E4EF3 /* VAMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA320ACDC9B004E4EF3 /* VAMonthView.swift */; };
+		EDCDBEB120ACDC9B004E4EF3 /* VAFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA420ACDC9B004E4EF3 /* VAFormatters.swift */; };
+		EDCDBEB220ACDC9B004E4EF3 /* VAMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA520ACDC9B004E4EF3 /* VAMonth.swift */; };
+		EDCDBEB320ACDC9B004E4EF3 /* VAWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA620ACDC9B004E4EF3 /* VAWeekView.swift */; };
+		EDCDBEB420ACDC9B004E4EF3 /* VADayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA720ACDC9B004E4EF3 /* VADayView.swift */; };
+		EDCDBEB520ACDC9B004E4EF3 /* VACalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA820ACDC9B004E4EF3 /* VACalendar.swift */; };
+		EDCDBEB620ACDC9B004E4EF3 /* VAMonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEA920ACDC9B004E4EF3 /* VAMonthHeaderView.swift */; };
+		EDCDBEB720ACDC9B004E4EF3 /* VACalendarMonthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDBEAA20ACDC9B004E4EF3 /* VACalendarMonthDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED2EB042206D89290033FA80 /* VACalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VACalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED2EB045206D89290033FA80 /* VACalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VACalendar.h; sourceTree = "<group>"; };
-		ED2EB046206D89290033FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED2EB04D206D896B0033FA80 /* VACalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarView.swift; sourceTree = "<group>"; };
-		ED2EB04E206D896B0033FA80 /* VACalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendar.swift; sourceTree = "<group>"; };
-		ED2EB04F206D896C0033FA80 /* VAWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekView.swift; sourceTree = "<group>"; };
-		ED2EB050206D896C0033FA80 /* VAFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAFormatters.swift; sourceTree = "<group>"; };
-		ED2EB051206D896C0033FA80 /* VAMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonth.swift; sourceTree = "<group>"; };
-		ED2EB052206D896C0033FA80 /* VADay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADay.swift; sourceTree = "<group>"; };
-		ED2EB053206D896C0033FA80 /* VAWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeek.swift; sourceTree = "<group>"; };
-		ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekDaysView.swift; sourceTree = "<group>"; };
-		ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthHeaderView.swift; sourceTree = "<group>"; };
-		ED2EB056206D896C0033FA80 /* VAMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthView.swift; sourceTree = "<group>"; };
-		ED2EB057206D896C0033FA80 /* VADayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADayView.swift; sourceTree = "<group>"; };
-		ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarMonthDelegate.swift; sourceTree = "<group>"; };
-		ED2EB059206D896C0033FA80 /* VADotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADotView.swift; sourceTree = "<group>"; };
+		EDCDBE9320ACDB70004E4EF3 /* VACalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VACalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCDBE9620ACDB70004E4EF3 /* VACalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VACalendar.h; sourceTree = "<group>"; };
+		EDCDBE9720ACDB70004E4EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCDBE9E20ACDC9B004E4EF3 /* VADay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADay.swift; sourceTree = "<group>"; };
+		EDCDBE9F20ACDC9B004E4EF3 /* VADotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADotView.swift; sourceTree = "<group>"; };
+		EDCDBEA020ACDC9B004E4EF3 /* VAWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeek.swift; sourceTree = "<group>"; };
+		EDCDBEA120ACDC9B004E4EF3 /* VAWeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekDaysView.swift; sourceTree = "<group>"; };
+		EDCDBEA220ACDC9B004E4EF3 /* VACalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarView.swift; sourceTree = "<group>"; };
+		EDCDBEA320ACDC9B004E4EF3 /* VAMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthView.swift; sourceTree = "<group>"; };
+		EDCDBEA420ACDC9B004E4EF3 /* VAFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAFormatters.swift; sourceTree = "<group>"; };
+		EDCDBEA520ACDC9B004E4EF3 /* VAMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonth.swift; sourceTree = "<group>"; };
+		EDCDBEA620ACDC9B004E4EF3 /* VAWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAWeekView.swift; sourceTree = "<group>"; };
+		EDCDBEA720ACDC9B004E4EF3 /* VADayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VADayView.swift; sourceTree = "<group>"; };
+		EDCDBEA820ACDC9B004E4EF3 /* VACalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendar.swift; sourceTree = "<group>"; };
+		EDCDBEA920ACDC9B004E4EF3 /* VAMonthHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAMonthHeaderView.swift; sourceTree = "<group>"; };
+		EDCDBEAA20ACDC9B004E4EF3 /* VACalendarMonthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VACalendarMonthDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED2EB03E206D89290033FA80 /* Frameworks */ = {
+		EDCDBE8F20ACDB70004E4EF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,40 +53,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED2EB038206D89290033FA80 = {
+		EDCDBE8920ACDB70004E4EF3 = {
 			isa = PBXGroup;
 			children = (
-				ED2EB044206D89290033FA80 /* VACalendar */,
-				ED2EB043206D89290033FA80 /* Products */,
+				EDCDBE9520ACDB70004E4EF3 /* VACalendar */,
+				EDCDBE9420ACDB70004E4EF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED2EB043206D89290033FA80 /* Products */ = {
+		EDCDBE9420ACDB70004E4EF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED2EB042206D89290033FA80 /* VACalendar.framework */,
+				EDCDBE9320ACDB70004E4EF3 /* VACalendar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED2EB044206D89290033FA80 /* VACalendar */ = {
+		EDCDBE9520ACDB70004E4EF3 /* VACalendar */ = {
 			isa = PBXGroup;
 			children = (
-				ED2EB045206D89290033FA80 /* VACalendar.h */,
-				ED2EB04E206D896B0033FA80 /* VACalendar.swift */,
-				ED2EB058206D896C0033FA80 /* VACalendarMonthDelegate.swift */,
-				ED2EB04D206D896B0033FA80 /* VACalendarView.swift */,
-				ED2EB052206D896C0033FA80 /* VADay.swift */,
-				ED2EB057206D896C0033FA80 /* VADayView.swift */,
-				ED2EB059206D896C0033FA80 /* VADotView.swift */,
-				ED2EB050206D896C0033FA80 /* VAFormatters.swift */,
-				ED2EB051206D896C0033FA80 /* VAMonth.swift */,
-				ED2EB055206D896C0033FA80 /* VAMonthHeaderView.swift */,
-				ED2EB056206D896C0033FA80 /* VAMonthView.swift */,
-				ED2EB053206D896C0033FA80 /* VAWeek.swift */,
-				ED2EB054206D896C0033FA80 /* VAWeekDaysView.swift */,
-				ED2EB04F206D896C0033FA80 /* VAWeekView.swift */,
-				ED2EB046206D89290033FA80 /* Info.plist */,
+				EDCDBEA820ACDC9B004E4EF3 /* VACalendar.swift */,
+				EDCDBEAA20ACDC9B004E4EF3 /* VACalendarMonthDelegate.swift */,
+				EDCDBEA220ACDC9B004E4EF3 /* VACalendarView.swift */,
+				EDCDBE9E20ACDC9B004E4EF3 /* VADay.swift */,
+				EDCDBEA720ACDC9B004E4EF3 /* VADayView.swift */,
+				EDCDBE9F20ACDC9B004E4EF3 /* VADotView.swift */,
+				EDCDBEA420ACDC9B004E4EF3 /* VAFormatters.swift */,
+				EDCDBEA520ACDC9B004E4EF3 /* VAMonth.swift */,
+				EDCDBEA920ACDC9B004E4EF3 /* VAMonthHeaderView.swift */,
+				EDCDBEA320ACDC9B004E4EF3 /* VAMonthView.swift */,
+				EDCDBEA020ACDC9B004E4EF3 /* VAWeek.swift */,
+				EDCDBEA120ACDC9B004E4EF3 /* VAWeekDaysView.swift */,
+				EDCDBEA620ACDC9B004E4EF3 /* VAWeekView.swift */,
+				EDCDBE9620ACDB70004E4EF3 /* VACalendar.h */,
+				EDCDBE9720ACDB70004E4EF3 /* Info.plist */,
 			);
 			path = VACalendar;
 			sourceTree = "<group>";
@@ -94,25 +94,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ED2EB03F206D89290033FA80 /* Headers */ = {
+		EDCDBE9020ACDB70004E4EF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2EB047206D89290033FA80 /* VACalendar.h in Headers */,
+				EDCDBE9820ACDB70004E4EF3 /* VACalendar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ED2EB041206D89290033FA80 /* VACalendar */ = {
+		EDCDBE9220ACDB70004E4EF3 /* VACalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED2EB04A206D89290033FA80 /* Build configuration list for PBXNativeTarget "VACalendar" */;
+			buildConfigurationList = EDCDBE9B20ACDB70004E4EF3 /* Build configuration list for PBXNativeTarget "VACalendar" */;
 			buildPhases = (
-				ED2EB03D206D89290033FA80 /* Sources */,
-				ED2EB03E206D89290033FA80 /* Frameworks */,
-				ED2EB03F206D89290033FA80 /* Headers */,
-				ED2EB040206D89290033FA80 /* Resources */,
+				EDCDBE8E20ACDB70004E4EF3 /* Sources */,
+				EDCDBE8F20ACDB70004E4EF3 /* Frameworks */,
+				EDCDBE9020ACDB70004E4EF3 /* Headers */,
+				EDCDBE9120ACDB70004E4EF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,43 +120,43 @@
 			);
 			name = VACalendar;
 			productName = VACalendar;
-			productReference = ED2EB042206D89290033FA80 /* VACalendar.framework */;
+			productReference = EDCDBE9320ACDB70004E4EF3 /* VACalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED2EB039206D89290033FA80 /* Project object */ = {
+		EDCDBE8A20ACDB70004E4EF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Anton Vodolazkyi";
+				ORGANIZATIONNAME = "Phong Le";
 				TargetAttributes = {
-					ED2EB041206D89290033FA80 = {
-						CreatedOnToolsVersion = 9.3;
+					EDCDBE9220ACDB70004E4EF3 = {
+						CreatedOnToolsVersion = 9.3.1;
 						LastSwiftMigration = 0930;
 					};
 				};
 			};
-			buildConfigurationList = ED2EB03C206D89290033FA80 /* Build configuration list for PBXProject "VACalendar" */;
+			buildConfigurationList = EDCDBE8D20ACDB70004E4EF3 /* Build configuration list for PBXProject "VACalendar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ED2EB038206D89290033FA80;
-			productRefGroup = ED2EB043206D89290033FA80 /* Products */;
+			mainGroup = EDCDBE8920ACDB70004E4EF3;
+			productRefGroup = EDCDBE9420ACDB70004E4EF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED2EB041206D89290033FA80 /* VACalendar */,
+				EDCDBE9220ACDB70004E4EF3 /* VACalendar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED2EB040206D89290033FA80 /* Resources */ = {
+		EDCDBE9120ACDB70004E4EF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,30 +166,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED2EB03D206D89290033FA80 /* Sources */ = {
+		EDCDBE8E20ACDB70004E4EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2EB063206D896D0033FA80 /* VAMonthView.swift in Sources */,
-				ED2EB05E206D896D0033FA80 /* VAMonth.swift in Sources */,
-				ED2EB066206D896D0033FA80 /* VADotView.swift in Sources */,
-				ED2EB065206D896D0033FA80 /* VACalendarMonthDelegate.swift in Sources */,
-				ED2EB062206D896D0033FA80 /* VAMonthHeaderView.swift in Sources */,
-				ED2EB05C206D896D0033FA80 /* VAWeekView.swift in Sources */,
-				ED2EB05B206D896D0033FA80 /* VACalendar.swift in Sources */,
-				ED2EB05F206D896D0033FA80 /* VADay.swift in Sources */,
-				ED2EB060206D896D0033FA80 /* VAWeek.swift in Sources */,
-				ED2EB05A206D896D0033FA80 /* VACalendarView.swift in Sources */,
-				ED2EB061206D896D0033FA80 /* VAWeekDaysView.swift in Sources */,
-				ED2EB064206D896D0033FA80 /* VADayView.swift in Sources */,
-				ED2EB05D206D896D0033FA80 /* VAFormatters.swift in Sources */,
+				EDCDBEAF20ACDC9B004E4EF3 /* VACalendarView.swift in Sources */,
+				EDCDBEB520ACDC9B004E4EF3 /* VACalendar.swift in Sources */,
+				EDCDBEAD20ACDC9B004E4EF3 /* VAWeek.swift in Sources */,
+				EDCDBEB020ACDC9B004E4EF3 /* VAMonthView.swift in Sources */,
+				EDCDBEB320ACDC9B004E4EF3 /* VAWeekView.swift in Sources */,
+				EDCDBEB420ACDC9B004E4EF3 /* VADayView.swift in Sources */,
+				EDCDBEB720ACDC9B004E4EF3 /* VACalendarMonthDelegate.swift in Sources */,
+				EDCDBEAB20ACDC9B004E4EF3 /* VADay.swift in Sources */,
+				EDCDBEB620ACDC9B004E4EF3 /* VAMonthHeaderView.swift in Sources */,
+				EDCDBEAE20ACDC9B004E4EF3 /* VAWeekDaysView.swift in Sources */,
+				EDCDBEB220ACDC9B004E4EF3 /* VAMonth.swift in Sources */,
+				EDCDBEAC20ACDC9B004E4EF3 /* VADotView.swift in Sources */,
+				EDCDBEB120ACDC9B004E4EF3 /* VAFormatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ED2EB048206D89290033FA80 /* Debug */ = {
+		EDCDBE9920ACDB70004E4EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		ED2EB049206D89290033FA80 /* Release */ = {
+		EDCDBE9A20ACDB70004E4EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,13 +309,14 @@
 			};
 			name = Release;
 		};
-		ED2EB04B206D89290033FA80 /* Debug */ = {
+		EDCDBE9C20ACDB70004E4EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XA52D359WN;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -327,7 +328,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vodolazkyi.VACalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phongleq.VACalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -336,13 +337,14 @@
 			};
 			name = Debug;
 		};
-		ED2EB04C206D89290033FA80 /* Release */ = {
+		EDCDBE9D20ACDB70004E4EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XA52D359WN;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -354,7 +356,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vodolazkyi.VACalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phongleq.VACalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -365,25 +367,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED2EB03C206D89290033FA80 /* Build configuration list for PBXProject "VACalendar" */ = {
+		EDCDBE8D20ACDB70004E4EF3 /* Build configuration list for PBXProject "VACalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED2EB048206D89290033FA80 /* Debug */,
-				ED2EB049206D89290033FA80 /* Release */,
+				EDCDBE9920ACDB70004E4EF3 /* Debug */,
+				EDCDBE9A20ACDB70004E4EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED2EB04A206D89290033FA80 /* Build configuration list for PBXNativeTarget "VACalendar" */ = {
+		EDCDBE9B20ACDB70004E4EF3 /* Build configuration list for PBXNativeTarget "VACalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED2EB04B206D89290033FA80 /* Debug */,
-				ED2EB04C206D89290033FA80 /* Release */,
+				EDCDBE9C20ACDB70004E4EF3 /* Debug */,
+				EDCDBE9D20ACDB70004E4EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED2EB039206D89290033FA80 /* Project object */;
+	rootObject = EDCDBE8A20ACDB70004E4EF3 /* Project object */;
 }

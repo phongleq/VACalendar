@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED2EB041206D89290033FA80"
+               BlueprintIdentifier = "EDCDBE9220ACDB70004E4EF3"
                BuildableName = "VACalendar.framework"
                BlueprintName = "VACalendar"
                ReferencedContainer = "container:VACalendar.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED2EB041206D89290033FA80"
+            BlueprintIdentifier = "EDCDBE9220ACDB70004E4EF3"
             BuildableName = "VACalendar.framework"
             BlueprintName = "VACalendar"
             ReferencedContainer = "container:VACalendar.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED2EB041206D89290033FA80"
+            BlueprintIdentifier = "EDCDBE9220ACDB70004E4EF3"
             BuildableName = "VACalendar.framework"
             BlueprintName = "VACalendar"
             ReferencedContainer = "container:VACalendar.xcodeproj">
